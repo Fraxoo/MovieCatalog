@@ -6,8 +6,7 @@ export default function MovieCard({ movie }) {
                 alt={movie.title}
             />
             <h3>{movie.title}</h3>
-            <p>⭐ {movie.vote_average}</p>
+            <p><i class="fa-solid fa-star"></i>{Math.round(movie.vote_average)}</p>
         </div>
-
     )
 }

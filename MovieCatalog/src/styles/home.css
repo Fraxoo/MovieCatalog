@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}
+
+:root{
+    --primary-color:#1c1c20;
+    --second-color:#29292e;
+    --orange:#f97315;
+}
+
+body{
+    background-color: var(--primary-color);
+    margin: 0 10%;
+}
+
+.movie-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  padding: 1rem;
+}
+.movie-card {
+
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+
+
+.pagination{
+    display: flex;
+}
+
+.fa-star{
+    color: var(--orange);
+}

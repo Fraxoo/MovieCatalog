@@ -1,6 +1,6 @@
 export default function Pagination({ page, setPage }) {
     return (
-        <div>
+        <div className="pagination">
             <button
                 disabled={page === 1}
                 onClick={() => setPage(page - 1)}
